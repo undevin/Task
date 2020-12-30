@@ -15,6 +15,8 @@ Students who complete this project independently are able to:
 * wire up view controllers to model object controllers
 * implement basic data persistence
 
+Please make sure to fork and clone this project before you begin. Once you have cloned it, navigate into the repo via the terminal and swich to the starter branch with `git checkout starter`. If at any point in time you need to view the master code solutions, you can switch back to the main branch.
+
 ## View Hierarchy
 1. Create a UITableViewController file called `TaskListTableViewController`
 2. Add a UITableViewController scene to your `Main.storybaord` that will be used to list tasks. Class it as a `TaskListTableViewController`
