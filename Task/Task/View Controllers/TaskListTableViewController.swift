@@ -49,7 +49,6 @@ class TaskListTableViewController: UITableViewController {
                   let destination = segue.destination as? TaskDetailViewController else { return }
             let taskToSend = TaskController.shared.tasks[indexPath.row]
             destination.task = taskToSend
-            
         }
     }
 }
@@ -62,4 +61,4 @@ extension TaskListTableViewController: TaskCompletionDelegate {
         TaskController.shared.toggleIsComplete(task: task)
         cell.updateViews(task: task)
     }
-}
+}//End of Class

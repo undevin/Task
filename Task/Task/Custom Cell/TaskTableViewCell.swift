@@ -40,12 +40,5 @@ class TaskTableViewCell: UITableViewCell {
         } else {
             completionButton.setBackgroundImage(UIImage(named: "incomplete"), for: .normal)
         }
-//        guard let task = task else { return }
-//        taskNameLabel.text = task.name
-//        if task.isComplete {
-//            completionButton.setBackgroundImage(complete, for: )
-//        }
     }
-    
-    
 }//End of Class
